@@ -130,7 +130,7 @@ document.querySelectorAll('.project-link').forEach(link => {
     link.addEventListener('click', function(e) {
         if (this.getAttribute('href') === '#') {
             e.preventDefault();
-            alert('Coming soon!');
+            alert('Projects coming soon');
         }
     });
 });
