@@ -265,6 +265,16 @@ section {
     justify-content: center;
     margin-bottom: 1rem;
     color: #c084fc;
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden; /* Hide anything outside the box */
+}
+
+.project-image img {
+    width: 100%;       /* Make image fill the container width */
+    height: 100%;      /* Make image fill the container height */
+    object-fit: cover; /* Crop and maintain aspect ratio */
+    display: block;    /* Remove default inline spacing */
 }
 
 .project-title {
